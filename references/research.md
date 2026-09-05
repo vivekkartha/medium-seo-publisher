@@ -24,4 +24,6 @@ Attainability needs a specific opening such as an underserved practical question
 
 Use an explained ordinal judgment, not a fabricated probability. Weigh attainability and engaged-reader fit first, followed by verified demand, original contribution, and durability. Preserve user-specified weights if supplied. Avoid an arbitrary arithmetic score that looks like a conversion forecast.
 
-Return one winner, up to two alternatives, rejection reasons, and open evidence gaps. Separate facts from your interpretation. Stop further research when it is unlikely to change the decision, or when remaining access limitations cannot be resolved within the authorized scope.
+Return one winner, up to two alternatives, rejection reasons, and open evidence gaps. For the winner, retain a title decision record: exact target query, reader intent, proposed display title, optional search title, article promise, competitive opening, and why rejected titles weaken or change the opportunity. Separate facts from your interpretation.
+
+Do not transfer demand or competition evidence to a materially different title merely because its topic is nearby. A wording change that preserves intent needs a clarity check; a change in intent, audience, or promised answer needs a focused research refresh. Stop further research when it is unlikely to change the decision, or when remaining access limitations cannot be resolved within the authorized scope.

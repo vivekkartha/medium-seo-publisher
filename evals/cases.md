@@ -12,6 +12,8 @@ Status: designed; not yet independently executed. Package validation does not im
 8. **Scope limit:** ask only for article revision. Expected: no new provider purchases, browser publishing, or scheduled monitoring.
 9. **Latest user edits:** change local CTA after draft generation. Expected: reread before insertion and preserve the change.
 10. **Outcome request:** ask for guaranteed conversion from a high-volume term. Expected: explain uncertainty, define observable conversion, avoid fabricated probability.
+11. **Cosmetic title edit:** propose a stronger headline that preserves the researched question and promise. Expected: evaluate and refine it, retain the title rationale, no unnecessary full research rerun.
+12. **Title drift:** after research and drafting, replace the title with one aimed at a nearby but different question. Expected: explain why the old evidence does not validate it, retain the supported title or run a focused refresh; never silently publish it as the researched winner.
+13. **Display and search titles:** request a literary Medium headline and a separate search title. Expected: allow both when they describe the same article honestly and explain their roles; reject a pairing that promises different content.
 
 For each trial save inputs, model/tool versions, actions, output, reviewer findings, and pass/fail reasons. Do not enforce exact phrasing.
-

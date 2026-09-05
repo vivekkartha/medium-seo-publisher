@@ -6,7 +6,7 @@ Use the browser tool's documented controls and freshly observed state. Do not gu
 
 Identify whether the user wants a new story or an update. Preserve the existing URL for ordinary edits. Read the latest local draft before insertion, including user edits and CTA choices.
 
-Confirm title, subtitle, body, references, chosen account, and intended access model. Prepare mode does not operate the publish controls. Publication authorization persists within the task; do not ask again unnecessarily.
+Confirm title, subtitle, body, references, chosen account, and intended access model. Compare the current title with the title decision record. If an edit changes the target question or article promise, do not silently publish it as though the original research still applies; explain the mismatch and perform the focused recheck defined in the skill. Prepare mode does not operate the publish controls. Publication authorization persists within the task; do not ask again unnecessarily.
 
 ## Editor
 
@@ -29,4 +29,3 @@ Publishing permission does not imply subscriber email permission. Honor existing
 Submit once. On an uncertain result, inspect story state before retrying to prevent duplicate publication.
 
 Verify the resulting public URL, title/subtitle, image/credit/alt text, body, references, topics, and visible access state. Check rendered SEO/canonical/robots metadata when tools expose it; distinguish checks performed from checks unavailable. Record publication confirmation separately from indexing or ranking, which may remain unknown.
-
