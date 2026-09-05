@@ -8,7 +8,7 @@
 
 ## Distribution
 
-Check the [skills.sh listing](https://skills.sh/vivekkartha/medium-seo-publisher) after each release. Publish a concise release note explaining the specific problem, installation, dependencies, and known limits.
+Check the [skills.sh listing](https://skills.sh/vivekkartha/medium-seo-publisher/medium-seo-publisher) after each release. Publish a concise release note explaining the specific problem, installation, dependencies, and known limits.
 
 Prepare posts for relevant Medium/agent-skill communities that allow project sharing. Send only when explicitly authorized. Avoid mass outreach, fake engagement, reciprocal star schemes, and claims of guaranteed growth.
 

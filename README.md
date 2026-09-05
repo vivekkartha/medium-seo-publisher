@@ -10,7 +10,7 @@ npx skills add https://github.com/vivekkartha/medium-seo-publisher
 
 Choose your agent in the installer. To install it for every supported agent, add `--agent '*'`.
 
-[View on skills.sh](https://skills.sh/vivekkartha/medium-seo-publisher)
+[View on skills.sh](https://skills.sh/vivekkartha/medium-seo-publisher/medium-seo-publisher)
 
 **Manual setup:** copy this repository into your agent's skills directory. If your agent does not support skills, ask it to read `SKILL.md` and the linked files in `references/`.
 
