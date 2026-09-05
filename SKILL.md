@@ -1,8 +1,8 @@
 ---
 name: medium-seo-publisher
-description: Research attainable keywords and prepare voice-matched Medium articles with SEO metadata, topics, and conversion measurement. Publish through Medium only when explicitly requested. Use for a Medium article workflow, not general technical website audits.
+description: Find questions people search for, choose a topic a Medium article can realistically compete for, and prepare the article in the author's voice with search metadata and measurement. Publish only when explicitly requested. Use for Medium article discovery, writing, and publishing, not technical website audits.
 metadata:
-  version: "1.0.1"
+  version: "1.0.2"
   editorial-profile: "1"
 ---
 

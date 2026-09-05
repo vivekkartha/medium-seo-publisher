@@ -1,4 +1,4 @@
 interface:
   display_name: "Medium SEO Publisher"
-  short_description: "Research, write, and publish evidence-backed Medium articles"
-  default_prompt: "Use $medium-seo-publisher to research an attainable topic and prepare a Medium article in my voice."
+  short_description: "Find searchable topics and write Medium articles in your voice"
+  default_prompt: "Use $medium-seo-publisher to find a topic people search for and prepare a Medium article in my voice."

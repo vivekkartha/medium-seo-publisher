@@ -1,6 +1,8 @@
 # Medium SEO Publisher
 
-Research keywords, write in your voice, and publish on Medium when you ask.
+Find questions people search for, choose one your article can realistically compete for, and turn it into a Medium post that still sounds like you. Publish only when you ask.
+
+It handles the search research, headline, description, Medium topics, image guidance, and publishing checks.
 
 ## Install
 
@@ -24,9 +26,9 @@ Prepares drafts by default. Publication and subscriber emails require explicit p
 
 ## What you get
 
-- Keyword research with sources and independent checks.
+- Search-topic research that shows what people look for and how difficult each topic may be to compete for.
 - An article in your voice, with built-in editing checks. Humanizer is optional.
-- SEO metadata, Medium topics, image guidance, and a measurement plan.
+- A search-friendly headline and description, Medium topics, image guidance, and a plan for checking results.
 - Browser publishing and verification when requested and supported.
 
 ## Compatibility
@@ -41,4 +43,4 @@ Live research needs connected data/search tools; exports also work. Publishing n
 
 Package validation passes; comparative performance testing is pending. No ranking or conversion guarantees.
 
-Version 1.0.1 · Editorial profile 1 · MIT license
+Version 1.0.2 · Editorial profile 1 · MIT license
