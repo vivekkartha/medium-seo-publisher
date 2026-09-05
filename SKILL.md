@@ -2,7 +2,7 @@
 name: medium-seo-publisher
 description: Find questions people search for, choose a topic a Medium article can realistically compete for, and prepare the article in the author's voice with search metadata and measurement. Publish only when explicitly requested. Use for Medium article discovery, writing, and publishing, not technical website audits.
 metadata:
-  version: "1.0.4"
+  version: "1.0.5"
   editorial-profile: "1"
 ---
 
@@ -22,6 +22,7 @@ Reuse session context. Check only what affects the next action; keep routine che
 
 - Establish the topic or existing article, audience, market/language, and primary outcome. Distinguish engaged reads, followers, signups, and revenue. Ask only about material gaps. Preserve any existing access/paywall preference.
 - Inventory keyword-data routes before declaring them unavailable: connected tools or APIs, supplied exports, existing authenticated provider tabs, controllable browser sessions, and accessible public estimators. A website login is not API access, but its normal UI is a valid research route when the host can operate it. Reuse user-provided access and already logged-in sessions; do not install services, start trials, buy credits, or bypass access controls.
+- If no route provides keyword metrics, offer a clear choice before degrading to search-only research: connect a supported data provider such as OpenSEO, use an available provider website through the browser, or continue with volume and difficulty left unknown. Use the host's normal choice prompt when available. State the account, authorization, and current cost implications before offering installation; “open source” does not mean the underlying keyword data is always free.
 - Locate an available Humanizer through the host's skill catalog or configured skill directories. Inspect its metadata and instructions, without scanning unrelated personal files. Use declared version plus capabilities; matching an upstream version alone is insufficient. Read [editorial.md](references/editorial.md) and load missing guidance before a single integrated rewrite. No automatic download or replacement.
 - Check Medium account identity only for requested editor work. Before publication, verify the actual destination and current publish settings.
 
@@ -30,6 +31,8 @@ Reuse session context. Check only what affects the next action; keep routine che
 Read [research.md](references/research.md). Reuse recent compatible observations when appropriate; date them and refresh finalists when the decision depends on current competition.
 
 Prefer one bulk discovery request and one bulk metrics request when the available route supports them, then inspect the viable finalists. A keyword-data connector is an optional fast path, not a prerequisite. Discover the current tool's callable schema and limits instead of assuming provider-specific commands. Follow the fallback order in [research.md](references/research.md), and do not equate a missing connector with missing access: Semrush, Ahrefs, Google Keyword Planner, Moz, or another provider may already be available through a logged-in browser UI, including an agent's in-app browser.
+
+When OpenSEO is supported but disconnected, it may be offered as an optional integration using its [official setup instructions](https://openseo.so/docs/mcp). Explain that the software is open source and the hosted service may offer a free starting path, while live third-party keyword data may consume credits or incur charges. If the user selects it, that choice authorizes the normal installation and connection steps within the current task; use the host's supported installer, complete its login flow, and run a small keyword-metrics probe before relying on it. If installation is unavailable or the probe fails, return to the chosen browser or search-only route without claiming that OpenSEO supplied evidence.
 
 Independently check the final three candidates, or all candidates if fewer, with a second provider when available. Only after checking the available connector, export, and browser routes may the agent report that no independent provider is accessible. If unavailable, report single-provider evidence and the uncertainty. Never imply two interfaces backed by the same dataset are independent. Do not require repeated exhaustive research to finish a modest article.
 

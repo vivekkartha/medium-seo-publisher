@@ -22,6 +22,14 @@ Use the strongest available route in this order:
 
 Check the host's tool inventory and current browser state before concluding that an earlier route is unavailable. If the user says a provider is logged in, attempt that provider through the available browser before falling back. Do not describe a connector as “paid” unless its actual terms or current account state establish that.
 
+If no available route supplies metrics, ask the user to choose among the viable next steps before using search alone:
+
+- **Connect OpenSEO or another supported provider:** name the integration, what it adds, required account/login, and any verified free allowance, credits, or charges. Do not call OpenSEO's live data unconditionally free merely because its code is open source. After the user chooses this route, install and authenticate through the host's supported flow, then verify one small query returns the expected market, volume, and difficulty fields.
+- **Use provider websites:** operate an existing Semrush, Ahrefs, Keyword Planner, Moz, or comparable session through the available browser. If authentication is missing, let the user complete it through the normal interface.
+- **Continue without metrics:** use live search results for intent and competition, and label volume and difficulty unknown.
+
+Do not interrupt with this choice when a suitable authenticated provider route already exists. Do not install an integration merely because it is mentioned in this document.
+
 Use bulk discovery and metrics where available. Shortlist by audience fit and intent before spending more calls. Inspect the strongest candidates rather than completing a large quota of seeds regardless of usefulness.
 
 For finalists, compare independent providers in comparable markets/windows. Preserve discrepancies; investigate a greater-than-twofold volume difference or conflicting difficulty judgments when it could change selection. Never average the sources into artificial precision. If no independent access remains after checking the routes above, disclose which routes were checked and proceed only with conclusions the evidence supports.
