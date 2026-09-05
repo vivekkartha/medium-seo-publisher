@@ -4,15 +4,15 @@ Research keywords, write in your voice, and publish on Medium when you ask.
 
 ## Install
 
-Run this command in a terminal:
-
 ```bash
-npx skills add https://github.com/vivekkartha/agent-skills --skill medium-seo-publisher
+npx skills add https://github.com/vivekkartha/medium-seo-publisher
 ```
 
 Choose your agent in the installer. To install it for every supported agent, add `--agent '*'`.
 
-**Manual setup:** copy this folder into your agent’s skills directory. If your agent does not support skills, ask it to read `SKILL.md` and the linked files in `references/`.
+[View on skills.sh](https://skills.sh/vivekkartha/medium-seo-publisher)
+
+**Manual setup:** copy this repository into your agent's skills directory. If your agent does not support skills, ask it to read `SKILL.md` and the linked files in `references/`.
 
 ## Use
 
