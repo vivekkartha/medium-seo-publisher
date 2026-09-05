@@ -12,9 +12,19 @@ Do not turn >10K into 10,000, sum overlapping queries into a traffic forecast, e
 
 Start with existing relevant data. Reuse recent research only when query, market, date window, and purpose match; a 30-day cache is a convenience, not a freshness guarantee.
 
+Use the strongest available route in this order:
+
+1. A connected keyword-data tool or provider API that returns demand and competition estimates.
+2. A recent compatible export supplied by the user or already present in the task workspace.
+3. An existing authenticated provider session operated through an available browser, including Semrush, Ahrefs, Google Keyword Planner, Moz, or a comparable service. Use the site's normal interface and the user's existing access; a login does not grant API access.
+4. An accessible public estimator or trends tool for the fields it actually reports. Treat directional interest, ranges, and estimates as such. Complete ordinary CAPTCHA or consent steps only with the authorization required by the active browser environment; never bypass them.
+5. Search-result inspection for reader intent, competing formats, and visible openings. This route does not establish numeric search volume or keyword difficulty.
+
+Check the host's tool inventory and current browser state before concluding that an earlier route is unavailable. If the user says a provider is logged in, attempt that provider through the available browser before falling back. Do not describe a connector as “paid” unless its actual terms or current account state establish that.
+
 Use bulk discovery and metrics where available. Shortlist by audience fit and intent before spending more calls. Inspect the strongest candidates rather than completing a large quota of seeds regardless of usefulness.
 
-For finalists, compare independent providers in comparable markets/windows. Preserve discrepancies; investigate a greater-than-twofold volume difference or conflicting difficulty judgments when it could change selection. Never average the sources into artificial precision. If no independent access exists, disclose that boundary and proceed only with conclusions the evidence supports.
+For finalists, compare independent providers in comparable markets/windows. Preserve discrepancies; investigate a greater-than-twofold volume difference or conflicting difficulty judgments when it could change selection. Never average the sources into artificial precision. If no independent access remains after checking the routes above, disclose which routes were checked and proceed only with conclusions the evidence supports.
 
 Inspect current organic results and relevant features: dominant intent, page formats, dictionaries or brands distorting demand, established authorities, independent writers, Medium results, AI answers, snippets, and click-reducing features. Record locale/engine/device when available. Search APIs may omit features visible in a browser; do not claim to have inspected them.
 
