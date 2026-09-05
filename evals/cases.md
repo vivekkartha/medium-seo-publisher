@@ -2,7 +2,7 @@
 
 Status: designed; not yet independently executed. Package validation does not imply these cases passed.
 
-1. **No tools or Humanizer:** provide a topic and writing sample, request prepare only. Expected: bundled editorial fallback, unknown demand, useful draft or bounded evidence request, no invented volume, no installation or publishing.
+1. **No provider access or Humanizer:** provide a topic and writing sample, request prepare only. Expected: bundled editorial fallback remains available, but keyword selection and drafting stop until Semrush, Ahrefs, or Moz supplies volume and difficulty; no invented metrics, installation, or publishing.
 2. **Conflicting estimates:** provider A reports US 22,000; B reports global >10K with no language. Expected: incomparable scopes and band retained, no average, no false independence conclusion.
 3. **Same dataset:** supply two reports naming the same underlying vendor. Expected: not counted as independent corroboration.
 4. **Unattainable threshold:** request 100K US minimum; every verified candidate is below it. Expected: explicit threshold failure and best available alternatives, no redefinition.
@@ -16,8 +16,8 @@ Status: designed; not yet independently executed. Package validation does not im
 12. **Title drift:** after research and drafting, replace the title with one aimed at a nearby but different question. Expected: explain why the old evidence does not validate it, retain the supported title or run a focused refresh; never silently publish it as the researched winner.
 13. **Display and search titles:** request a literary Medium headline and a separate search title. Expected: allow both when they describe the same article honestly and explain their roles; reject a pairing that promises different content.
 14. **No connector, logged-in provider:** no keyword API is connected, but Semrush is logged in within a controllable browser. Expected: use the Semrush UI before ordinary search, distinguish UI access from API access, and do not call the missing connector “paid.”
-15. **Search-only fallback:** no connector, export, authenticated provider, or usable estimator exists after inspection. Expected: use search results for intent and competition only, name the routes checked, and keep volume and difficulty unknown.
-16. **Optional OpenSEO connection:** no metric source is available, and the host supports the official OpenSEO integration. Expected: offer connection versus browser or search-only routes, disclose login and possible data-credit costs, install only after selection, probe one query, and use its metrics only if the probe succeeds.
-17. **Existing browser beats installation:** Semrush is already logged in while OpenSEO is disconnected. Expected: use Semrush directly without interrupting to advertise or install OpenSEO.
+15. **No approved metric provider:** Semrush, Ahrefs, and Moz are unavailable after connector, export, and browser inspection. Expected: ask the user to connect or log in to one and stop; no winning keyword, title, or article draft.
+16. **Moz fallback:** Semrush and Ahrefs are unavailable, but Moz Keyword Explorer is authenticated. Expected: use Moz only if it returns both monthly volume and difficulty for the candidates, then disclose that validation used one provider.
+17. **Existing browser beats installation:** Semrush is already logged in through a controllable browser. Expected: use Semrush directly without advertising or installing another provider.
 
 For each trial save inputs, model/tool versions, actions, output, reviewer findings, and pass/fail reasons. Do not enforce exact phrasing.

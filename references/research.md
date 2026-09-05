@@ -12,27 +12,19 @@ Do not turn >10K into 10,000, sum overlapping queries into a traffic forecast, e
 
 Start with existing relevant data. Reuse recent research only when query, market, date window, and purpose match; a 30-day cache is a convenience, not a freshness guarantee.
 
-Use the strongest available route in this order:
+Use this provider gate:
 
-1. A connected keyword-data tool or provider API that returns demand and competition estimates.
-2. A recent compatible export supplied by the user or already present in the task workspace.
-3. An existing authenticated provider session operated through an available browser, including Semrush, Ahrefs, Google Keyword Planner, Moz, or a comparable service. Use the site's normal interface and the user's existing access; a login does not grant API access.
-4. An accessible public estimator or trends tool for the fields it actually reports. Treat directional interest, ranges, and estimates as such. Complete ordinary CAPTCHA or consent steps only with the authorization required by the active browser environment; never bypass them.
-5. Search-result inspection for reader intent, competing formats, and visible openings. This route does not establish numeric search volume or keyword difficulty.
+1. Use Semrush or Ahrefs through a connected tool, supplied compatible export, or existing authenticated browser session. Prefer existing access over installing anything. Both providers expose estimated monthly volume and organic keyword difficulty.
+2. If neither is accessible, use Moz Keyword Explorer through an existing session or ask the user to log in. Moz must expose monthly volume and difficulty for the candidate set; a result that omits either field does not pass the gate.
+3. If none of the three providers can supply both metrics, ask the user to connect or authenticate one. Do not select a winning keyword, finalize a title, or draft the article while the gate is unresolved.
 
-Check the host's tool inventory and current browser state before concluding that an earlier route is unavailable. If the user says a provider is logged in, attempt that provider through the available browser before falling back. Do not describe a connector as “paid” unless its actual terms or current account state establish that.
+Check the host's tool inventory and current browser state before declaring a provider unavailable. If the user says a provider is logged in, attempt its normal interface through the available browser. A website login is valid UI access but does not imply API access. Do not install services, start trials, spend credits, or bypass access controls without the user's informed choice.
 
-If no available route supplies metrics, ask the user to choose among the viable next steps before using search alone:
-
-- **Connect OpenSEO or another supported provider:** name the integration, what it adds, required account/login, and any verified free allowance, credits, or charges. Do not call OpenSEO's live data unconditionally free merely because its code is open source. After the user chooses this route, install and authenticate through the host's supported flow, then verify one small query returns the expected market, volume, and difficulty fields.
-- **Use provider websites:** operate an existing Semrush, Ahrefs, Keyword Planner, Moz, or comparable session through the available browser. If authentication is missing, let the user complete it through the normal interface.
-- **Continue without metrics:** use live search results for intent and competition, and label volume and difficulty unknown.
-
-Do not interrupt with this choice when a suitable authenticated provider route already exists. Do not install an integration merely because it is mentioned in this document.
+Ordinary web search remains supplemental. Use it after the metric gate for reader intent, competing formats, current results, and visible openings. It cannot replace the required volume and difficulty estimates.
 
 Use bulk discovery and metrics where available. Shortlist by audience fit and intent before spending more calls. Inspect the strongest candidates rather than completing a large quota of seeds regardless of usefulness.
 
-For finalists, compare independent providers in comparable markets/windows. Preserve discrepancies; investigate a greater-than-twofold volume difference or conflicting difficulty judgments when it could change selection. Never average the sources into artificial precision. If no independent access remains after checking the routes above, disclose which routes were checked and proceed only with conclusions the evidence supports.
+For finalists, compare independent providers in comparable markets/windows when a second approved provider is available. Preserve discrepancies; investigate a greater-than-twofold volume difference or conflicting difficulty judgments when it could change selection. Never average the sources into artificial precision. If only one provider is accessible, disclose that boundary without weakening the metric gate.
 
 Inspect current organic results and relevant features: dominant intent, page formats, dictionaries or brands distorting demand, established authorities, independent writers, Medium results, AI answers, snippets, and click-reducing features. Record locale/engine/device when available. Search APIs may omit features visible in a browser; do not claim to have inspected them.
 

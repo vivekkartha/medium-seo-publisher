@@ -36,9 +36,7 @@ Prepares drafts by default. Publication and subscriber emails require explicit p
 
 Agent-neutral Markdown, usable by any agent that can read instructions and local reference files. No Codex or Claude runtime is required. `agents/openai.yaml` is optional UI metadata.
 
-Live research can use connected keyword tools, supplied exports, or an existing logged-in Semrush, Ahrefs, or similar provider session through a controllable browser. Ordinary search can establish reader intent and visible competition, but not numeric search volume or difficulty. Publishing needs an authenticated browser tool. Installing this skill does not provide subscriptions or connect those tools. Compatibility with every agent has not been tested.
-
-If no source provides keyword metrics, the skill can offer to connect a supported provider such as OpenSEO, use provider websites in the browser, or continue without numeric metrics. It explains login and possible data costs before installing anything.
+Live research requires monthly volume and keyword difficulty from Semrush or Ahrefs, with Moz Keyword Explorer as the fallback. The skill can use a connected tool, compatible export, or logged-in provider session through a controllable browser. If none of the three is accessible, it stops and asks for provider access instead of inventing a recommendation from ordinary search. Publishing needs an authenticated browser tool. Installing this skill does not provide subscriptions or connect those tools. Compatibility with every agent has not been tested.
 
 ## Evidence
 
@@ -46,4 +44,4 @@ If no source provides keyword metrics, the skill can offer to connect a supporte
 
 Package validation passes; comparative performance testing is pending. No ranking or conversion guarantees.
 
-Version 1.0.5 · Editorial profile 1 · MIT license
+Version 1.0.6 · Editorial profile 1 · MIT license
