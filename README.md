@@ -50,7 +50,7 @@ Prepares drafts by default. Publication and subscriber emails require explicit p
 
 Agent-neutral Markdown for agents that can load `SKILL.md` and its relative references. No Codex- or Claude-specific runtime is required for prepare mode. `agents/openai.yaml` is optional UI metadata.
 
-Live research requires monthly volume and keyword difficulty from Semrush or Ahrefs, with Moz Keyword Explorer as the fallback. The skill can use a connected tool, compatible export, logged-in provider session through a controllable browser, or a first-party public interface that exposes the required fields. If none of these routes supplies complete metrics, it stops and asks for provider access instead of inventing a recommendation from ordinary search. Publishing needs an authenticated browser tool. Installing this skill does not provide subscriptions or connect those tools. Compatibility with every agent has not been tested.
+Live research requires monthly volume and organic keyword difficulty from an approved provider. The skill starts with existing access, explains verified free usage that a login can unlock, offers trial or paid access as a choice, and then works through a current free-first provider list when Semrush is unavailable or payment is declined. It can use a connected tool, compatible export, logged-in provider session through a controllable browser, or a first-party public interface that exposes both required fields. If no free or user-approved paid route supplies complete metrics, it stops instead of inventing a recommendation from ordinary search. Publishing needs an authenticated browser tool. Installing this skill does not provide subscriptions or connect those tools. Compatibility with every agent has not been tested.
 
 ## Evidence
 
