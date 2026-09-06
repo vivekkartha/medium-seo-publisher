@@ -19,26 +19,27 @@ On hosts without skill discovery, the user can provide SKILL.md and its relative
 
 ## Choose the mode
 
-- Modes compose in the order requested. For “research, write, and publish,” finish **Discover or create** before **Publish**. If the provider gate blocks discovery, stop before drafting or publishing.
-- **Discover or create an SEO-led article:** run measurement preflight, the provider metric gate, current SERP inspection, source research, writing, and title validation.
-- **Create an editorial-only article:** when the user supplies the subject or title and does not request search validation, draft and source the article without the provider gate. State that no keyword winner or SEO title was validated. If the user later requests an SEO recommendation, enter **Discover or create**.
-- **Refresh an SEO title or direction:** reuse compatible evidence when still current; re-enter research if the query, intent, audience, market, or article promise changes.
-- **Revise prose only:** skip the provider gate when no SEO claim or target changes. Preserve the existing title decision and do not invent new search claims.
-- **Publish an approved draft:** do not repeat completed research unless title drift or stale material facts affect the promise. Run the Medium policy, field, destination, and submission checks.
+- **SEO validation is the default for every new or existing Medium article.** A supplied topic, title, outline, or draft is input to the research; it is not permission to skip it. Unless the user explicitly asks for **editorial-only** or **prose-only** work, run measurement preflight, the provider metric gate, current SERP inspection, keyword selection, source research, writing or revision, and SEO title validation.
+- Modes compose in the order requested. For writing, revising, refreshing, or publishing, complete the default SEO workflow before delivery or publication. If the provider gate blocks research, stop before selecting a keyword, validating a title, drafting, revising, or publishing.
+- **Create or revise an SEO-led article:** use the default SEO workflow for a new idea and for an existing article, including when the user supplies the subject, title, or draft.
+- **Refresh an SEO title or direction:** run the provider gate, inspect the current SERP, select the supported keyword, and validate the SEO title. Reuse compatible evidence only when [research.md](references/research.md) considers it current.
+- **Create an editorial-only article:** use this exception only when the user explicitly asks for editorial-only work. Draft and source the article without SEO research, and state that no keyword winner or SEO title was validated.
+- **Revise prose only:** use this exception only when the user explicitly asks for prose-only work. Preserve the existing title decision, make no SEO claims, and state that search demand, keyword selection, the current SERP, and the title were not validated.
+- **Publish an approved draft:** unless the user explicitly chose an editorial-only or prose-only exception, complete the default SEO workflow in the current task before the Medium policy, field, destination, and submission checks.
 
 ## Quick preflight
 
 Reuse session context. Check only what affects the next action; keep routine checks out of the conversation.
 
-- Read [measurement.md](references/measurement.md). Establish the topic or existing article, audience, language, and primary outcome. In SEO modes, also establish the search engine and market and explain a proposed market briefly to a novice. Establish the canonical destination when publication or cross-posting makes it relevant. Infer safe defaults and recommend engaged reads as the novice outcome; ask one bundled question only when missing values would change the research or publication.
-- In **Discover or create an SEO-led article** and **Refresh an SEO title or direction**, inventory access to Semrush, Ahrefs, and Moz before declaring the metric gate blocked: connected tools or APIs, compatible exports, existing authenticated provider tabs, controllable browser sessions, and first-party public interfaces. A website login is not API access, but its normal UI is a valid research route when the host can operate it. Reuse user-provided access and already logged-in sessions; do not install services, start trials, buy credits, or bypass access controls.
-- In those SEO modes, require keyword demand and difficulty from Semrush or Ahrefs before selecting a topic. Prefer whichever is already authenticated; if both are available, use the one that best supports efficient bulk research. If neither is accessible, use Moz Keyword Explorer as the third provider. If all three are unavailable, ask the user to connect or log in to one and stop before choosing a keyword, SEO title, or SEO-led article direction. This gate does not apply to editorial-only creation or prose-only revision.
+- Read [measurement.md](references/measurement.md). Establish the topic or existing article, audience, language, and primary outcome. Unless the user explicitly chose an editorial-only or prose-only exception, also establish the search engine and market and explain a proposed market briefly to a novice. Establish the canonical destination when publication or cross-posting makes it relevant. Infer safe defaults and recommend engaged reads as the novice outcome; ask one bundled question only when missing values would change the research or publication.
+- For every new or existing article outside an explicit editorial-only or prose-only exception, inventory access to Semrush, Ahrefs, and Moz before declaring the metric gate blocked: connected tools or APIs, compatible exports, existing authenticated provider tabs, controllable browser sessions, and first-party public interfaces. A website login is not API access, but its normal UI is a valid research route when the host can operate it. Reuse user-provided access and already logged-in sessions; do not install services, start trials, buy credits, or bypass access controls.
+- For every such article, require keyword demand and difficulty from Semrush or Ahrefs before selecting a keyword or article direction. Prefer whichever is already authenticated; if both are available, use the one that best supports efficient bulk research. If neither is accessible, use Moz Keyword Explorer as the third provider. If all three are unavailable, ask the user to connect or log in to one and stop before choosing a keyword, validating an SEO title, drafting, revising, or publishing. Only an explicit editorial-only or prose-only request bypasses this gate.
 - Locate an available Humanizer through the host's skill catalog or configured skill directories. Prefer the host-configured skill, then the closest capability match; do not ask the user unless the choices would materially change the output. Constrain it to prose editing: this skill retains control of research, citations, factual preservation, title validation, and publishing. Read [editorial.md](references/editorial.md) and load missing guidance before one integrated rewrite. No automatic download or replacement.
 - Check Medium account identity only for requested editor work. Before publication, verify the actual destination and current publish settings.
 
 ## Research with bounded effort
 
-This section applies to **Discover or create an SEO-led article** and **Refresh an SEO title or direction**. Editorial-only creation and prose-only revision skip to **Prepare the article** unless the request adds search validation.
+This section applies by default to every new or existing Medium article, including requests that supply only a topic, title, outline, or draft and requests to revise or publish. Skip it only when the user explicitly asks for editorial-only or prose-only work.
 
 Read [research.md](references/research.md). Reuse recent compatible observations when appropriate; date them and refresh finalists when the decision depends on current competition.
 
@@ -56,22 +57,22 @@ Read [editorial.md](references/editorial.md) and [sourcing.md](references/sourci
 
 Author the complete article unless the user asks only for research, an outline, or editing. Build it around the selected reader question and answer that question early. Preserve the author's interpretation while distinguishing it from factual claims. Use verified sources; never invent personal experiences, research, numbers, or quotes. Source research is separate from keyword research.
 
-Prepare the article, story title/subtitle, preview-card title/subtitle, up to five relevant topics, image direction/alt-text draft, and material-claim source record together. In an SEO-led or refresh mode, also include the proposed search snippet and keyword evidence. In editorial-only mode, mark search metadata as not researched instead of inventing it. Treat fields not observed in Medium as deliverable metadata rather than controls that were set. Make headings and FAQs serve the reader; do not force a template into an essay. Preserve user edits when rereading the final file.
+Prepare the article, story title/subtitle, preview-card title/subtitle, up to five relevant topics, image direction/alt-text draft, and material-claim source record together. By default, also include the proposed search snippet and keyword evidence. After an explicit editorial-only or prose-only request, mark search metadata as not researched instead of inventing it. Treat fields not observed in Medium as deliverable metadata rather than controls that were set. Make headings and FAQs serve the reader; do not force a template into an essay. Preserve user edits when rereading the final file.
 
 Run one integrated editorial pass followed by a whole-document factual and voice review. Rewrite affected paragraphs rather than repeatedly swapping phrases. Do not certify prose as human or mistake a clean word scan for editorial quality.
 
 ## Keep the title tied to the research
 
-In an SEO-led or refresh mode, treat the recommended title as part of the research decision, not as decoration added after drafting. Present it with a short plain-language rationale covering the search question, likely reader, competitive opening, article promise, and how the draft fulfills that promise. In editorial-only mode, give an editorial rationale covering the likely reader, article promise, and how the draft fulfills it; do not claim a search question or competitive opening was validated.
+By default, treat the recommended title as part of the research decision, not as decoration added after drafting. Validate it against the selected keyword and current SERP, then present it with a short plain-language rationale covering the search question, likely reader, competitive opening, article promise, and how the draft fulfills that promise. After an explicit editorial-only or prose-only request, give an editorial rationale covering the likely reader, article promise, and how the draft fulfills it; do not claim a search question or competitive opening was validated.
 
 For an SEO-led title, evaluate a proposed replacement instead of accepting or rejecting it mechanically:
 
 - If it preserves the same reader intent and factual promise, refine it if useful and recheck its clarity against the research.
 - If a more literary Medium headline can coexist with a separate search title, use both only when they describe the same article honestly. Explain the role of each.
 - If it changes the topic, intent, or promised answer, do not call it the researched winner. Explain the mismatch and retain the supported title, or run a focused research refresh for the new direction.
-- If the user explicitly chooses a materially changed title, preserve their editorial decision but do not publish or describe it as SEO-validated until a focused refresh passes the metric and SERP floor. If they choose an editorial-only path, mark the earlier title conclusion as superseded, omit researched-winner claims, and re-baseline measurement.
+- If the user explicitly chooses a materially changed title, preserve their editorial decision but do not publish or describe it as SEO-validated until a focused refresh passes the metric and SERP floor. If they explicitly choose an editorial-only or prose-only path, mark the earlier title conclusion as superseded, omit researched-winner claims, and re-baseline measurement.
 
-For an editorial-only title, compare the replacement with the article's reader and promise. Do not trigger SEO research unless the user requests search validation.
+After an explicit editorial-only or prose-only request, compare a replacement title with the article's reader and promise without claiming SEO validation. In every other case, a replacement title stays in the default SEO workflow.
 
 Research on one query does not automatically validate nearby topics. Related queries can suggest an article cluster, but each materially different article needs its own intent and competition check. Search research improves the choice; it does not guarantee ranking, readership, or that every nearby topic is suitable for the author.
 
@@ -85,6 +86,8 @@ Include a proportional follow-up schedule in the deliverable, anchored to public
 
 ## Completion standard
 
+- Unless the user explicitly requested editorial-only or prose-only work, completion requires a passed provider metric gate, a selected keyword, a current localized SERP inspection, and an SEO title validated against that evidence. Supplying a topic, title, outline, or draft does not satisfy or waive these checks.
+- For an explicit editorial-only or prose-only exception, report that provider metrics, the current SERP, keyword selection, and SEO title validation were not performed.
 - Every winning candidate has provider, market, metric dates, volume, organic difficulty, and uncertainty; incomplete rows remain unvalidated leads.
 - Every material factual claim is sourced, qualified, or removed.
 - Article and title fulfill the same reader promise and preserve factual meaning and author voice.
